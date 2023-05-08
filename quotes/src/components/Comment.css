@@ -1,0 +1,24 @@
+.comment_box{
+    background: rgb(192, 218, 253);
+    color: rgb(3, 3, 3);
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.comment {
+    padding: 10px;
+}
+.comment_box p{
+    background: rgb(1, 8, 107);
+    margin: 0;
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    padding: 5px;
+}

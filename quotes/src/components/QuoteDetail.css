@@ -1,0 +1,39 @@
+.filteredQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(192, 218, 253);
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 60%;
+}
+.filteredQuote h1{
+    background: rgb(19, 4, 90);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    color: white;
+    margin: 0%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.filteredQuote p, .filtered_quote_author{
+font-family: 'Rubik', sans-serif;
+padding: 20px;
+}
+
+.comment_button{
+    text-align: center;
+}
+.comment_button a{
+    color: white;
+    text-decoration: none;
+    background: rgb(10, 9, 93);
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    z-index: 1;
+}

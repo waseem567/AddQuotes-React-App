@@ -1,0 +1,27 @@
+.quotes{
+    background: rgb(192, 218, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 60%;
+}
+.quotes .quote_text{
+    font-family: 'Rubik', sans-serif;
+}
+.quotes .quote_button{
+    width: 400px;
+    text-align: end;
+}
+.quotes .quote_button a{
+    text-decoration: none;
+    background: rgb(1, 27, 142);
+    color: white;   
+    font-size: larger;
+    padding : 10px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

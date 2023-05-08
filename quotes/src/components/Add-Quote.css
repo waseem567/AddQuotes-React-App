@@ -1,0 +1,33 @@
+.add_quote form{
+    width: 30%;
+    padding: 10px;
+    color: black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.add_quote form #quote , #author , #auther::placeholder{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: 600;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    background: rgb(192, 218, 253); 
+}
+.add_quote__button {
+    padding: 10px;
+    text-align: center;
+}
+.add_quote__button button{
+    background: rgb(58, 130, 245);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}

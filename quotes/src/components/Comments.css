@@ -1,0 +1,31 @@
+.quote_comments{
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.quote_comments textarea,.quote_comments textarea::placeholder{
+    display: inline-block;
+    margin: auto;
+    z-index: 1;
+    font-family: 'Rubik', sans-serif;
+    background: #000;
+    color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 100%;
+}
+.add_comment{
+    text-align: center;
+}
+.add_comment_button{
+    color: white;
+    text-decoration: none;
+    background: rgb(10, 9, 93);
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30%;
+    z-index: 1;
+    border: none;
+}
